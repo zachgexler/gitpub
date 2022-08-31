@@ -41,3 +41,10 @@ const drinks = [
       image: "https://i.imgur.com/MbVdwZz",
     },
   ]
+  
+  <% for (let i =0; i <allDrinks.length; i++) { %>
+    <li>
+        <a href="drinks/<%=i%>"><%=allDrinks[i].name.toUpperCase() %></a>
+    </li>
+
+  }

@@ -9,6 +9,17 @@
 <body>
     <h1>"Welcome to gitPub"</h1>
 
+    <ul>
+      <% for (let i =0; i <allDrinks.length; i++) { %>
+      <li>
+          <a href="drinks/<%=i%>"><%=allDrinks[i].name.toUpperCase() %></a>
+      </li>
+      </ul>
+  
+    }
+
+
+    </ul>
 <style type="text/css">
     body {
       color: blanchedalmond;
